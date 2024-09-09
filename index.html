@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+  <body>
+    <div>
+      <h1 id="title">Fushifoods Survey Form</h1>
+    <p id="description">Please fill this form to help improve our services. Thank you.</p>
+
+    <form id="survey-form">
+      
+      <label id="name-label">Name <small>(required)</small>: <input type="text" id="name" placeholder="Enter your name" required></label>
+      <label id="email-label">Email <small>(required)</small>: <input type="email" id="email" placeholder="Enter your email" required></label>
+
+      <label id="number-label">Age: <input type="number" id="number" min="15" max="60" placeholder="Enter your age"></label>
+      <label> Which of our menus is your favorite?
+        <select id="dropdown">
+          <option value="">select one</option>
+          <option value="1">marinated chicken</option>
+          <option value="2">creamy pasta</option>
+          <option value="3">Party jollof</option>
+          <option value="4">pepper soup</option>
+          <option value="5">asun</option>
+          <option value="6">Burger</option>
+          <option value="7">Barbeque fish</option>
+          <option value="8">Other</option>
+
+        </select>
+      </label>
+
+      <label>Are you a regular customer?</label>
+      <label class="options">
+        <input type="radio" name="customer" checked>Yes I am
+      </label>
+      <label class="options">
+        <input type="radio" name="customer">No, not regular
+      </label>
+      <label class="options">
+        <input type="radio" name="customer">No, I am new to Fushifoods
+      </label>
+      <label>What should we improve ?</label>
+      <label for="checkbox1" class="options"><input type="checkbox" value="box1">Delivery process</label>
+            <label for="checkbox2" class="options"><input type="checkbox" value="box2">Food spices</label>
+            <label for="checkbox3" class="options"><input type="checkbox" value="box3">Payment methods</label>
+            <label for="checkbox4" class="options"><input type="checkbox" value="box4">More food items on our menu</label>
+            <label for="checkbox5" class="options"><input type="checkbox" value="box5">Specials</label>
+            <label for="checkbox6" class="options"><input type="checkbox" value="box6">customer service</label>
+            <label for="checkbox7" class="options"><input type="checkbox" value="box7">Our website</label>
+
+            <label for="comment">
+              Additional comment
+            </label>
+            <textarea id="comment" rows="3" cols="65"></textarea>
+            <input type="submit" value="Submit" id="submit">
+      
+    </form>
+
+    </div>
+    
+  </body>
+</html>

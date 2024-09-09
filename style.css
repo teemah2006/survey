@@ -1,0 +1,68 @@
+body{
+    background-image: url(https://plustvafrica.com/wp-content/uploads/nigerian-foods-you-have-to-try.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Tahoma;
+    font-size: 17px;
+    color: rgb(250,230,210);
+    margin:0;
+  
+    
+  }
+  div{
+    backdrop-filter: blur(3px);
+    margin: 0;
+    
+  }
+  label{
+    display: block;
+    margin: 0 0 5px 0;
+  }
+  form{
+    margin: 0 auto;
+    align-items: center;
+    max-width:500px;
+    min-width: 300px;
+    background-color: rgb(40,0,0);
+    padding: 1em 3em;
+    
+  }
+  h1,p{
+    text-align: center;
+    margin: 0 0 1em 0;
+  }
+  p{
+    font-style: italic;
+  }
+  
+  input,select,textarea{
+    width: 100%;
+    margin: 0.5em 0 1em 0;
+    padding: 10px;
+    background-color: rgb(50,0,0);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.7);
+    font-size: 15px
+  }
+  input[type="radio"],
+  input[type="checkbox"]{
+    width: unset;
+    margin: 0 1em 1.5em 0;
+    
+  }
+  .options{
+    margin: unset;
+    font-size: 16px
+  }
+  
+  #submit{
+    max-width:300px;
+    min-width: 200px;
+    /* width: 50%; */
+    margin: 1.5em auto 1em 5em;
+    align-items: center;
+    border-radius: 7px;
+    background-color: rgb(250,230,210);
+    color: brown
+  }
